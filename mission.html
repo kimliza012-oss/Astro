@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=send" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bungee&family=Chonburi&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@300;400;500;600;700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/main.css">
+     <script src="../JS/main.js"></script>
+</head>
+<body style="width: 100%;">
+
+    <main>
+        <video autoplay muted loop id="myVideo">
+  <source src="../Img/bg.mp4" type="video/mp4">
+</video>
+<nav class="navbar navbar-expand-lg" style="height: 2.5cm; background:linear-gradient(to right,#5E3041ff, #A7A4BEff)" id="nav1">
+  <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+      <img src="../Img/planets.svg" alt="Bootstrap" width="110px" height="99px">
+    </a>
+    <a class="navbar-brand" style="font-size: 250%; font-family: 'Rajdhani'; color: #c398d8;">Orbit Odyssey </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item dropdown"  style="margin-left: 20cm;">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #2c2127;">
+          Explore
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#" >Home</a></li>
+            <li><a class="dropdown-item" href="../HTML/mission.html"> Missions </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../HTML/solar.html"> Solar System </a></li>
+            <li><a class="dropdown-item" href="#">Constellation</a></li>
+            <li><a class="dropdown-item" href="#"> Galaxies</a></li>
+
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #2c2127;">
+            News / Events
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Events</a></li>
+            <li><a class="dropdown-item" href="#">News Letters</a></li>
+          </ul>
+        </li>
+
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #2c2127;">
+            Multimedia
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Images</a></li>
+            <li><a class="dropdown-item" href="#">Podcasts </a></li>
+            <li><a class="dropdown-item" href="#">E- Books</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav2">
+  <div class="container-fluid" >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav" style="margin-left: 14cm;">
+        <a class="nav-link" aria-current="page" href="#" style="margin-left: 1cm; border-radius: 5px; background-color: #a7a4be; border-radius: 10%; color: rgb(0, 0, 0);">About</a>
+        <a class="nav-link" href="#" style="margin-left: 1cm; border-radius: 5px; background-color: #a7a4be; border-radius: 10%; color: rgb(0, 0, 0);"> NASA </a>
+        <a class="nav-link" href="#" style="margin-left: 1cm; border-radius: 5px; background-color: #a7a4be; border-radius: 10%; color: rgb(0, 0, 0);"> ISRO </a>
+        <a class="nav-link" href="#" style="margin-left: 1cm; border-radius: 5px; background-color: #a7a4be; border-radius: 10%; color: rgb(0, 0, 0);"> SpaceX</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="content">
+  <h1 style="font-family: 'Libre Baskerville'; background-color: #FF69B4;text-shadow: 9px 2px 6px rgba(0, 0, 0, 0.5); background-clip: text; -webkit-text-fill-color: transparent;"> Welcome to </h1>
+  <h1 style="font-family: 'Libre Baskerville'; background-color: #FF69B4; text-shadow: 9px 2px 6px rgba(0, 0, 0, 0.5);
+ background-clip: text; -webkit-text-fill-color: transparent;">The Universe</h1>
+</div>
+
+<section style="background-color: black; height: 16cm;">
+<div class="row" id="ro">
+  <h1 style=" color: #c398d8; font-size: 400%; font-family: Bungee; text-align: center; padding-top: 1cm; font-weight: 700;">Explore </h1>
+
+ <br> <br>
+  <div class="column" id="col" style="padding-top: 1cm;">
+    <img src="../Img/pexels-pixabay-2150.jpg" alt="Galaxies" style="width:300px">
+    <h3 style="margin-top: 1cm;"> <b>Galaxies</b> </h3>
+    <p>Every galaxy tells a story of birth, collision, and <br> transformation
+      fting through space like islands in a boundless sea.
+
+</p>
+  </div>
+
+  <div class="column" id="col" style="padding-top: 1cm;">
+    <img src="../Img/OGLE-2007-BLG-349.jpg" alt="Exoplanet" style="width:300px"> 
+    <h3 style="margin-top: 1cm;"><b>Exoplanets</b></h3> 
+    <p>Exoplanets are planets that orbit stars beyond our solar system</p>
+  </div>
+<br>
+  <div class="column" id="col" style="padding-top: 1cm;">
+    <img src="../Img/Starsinthesky.jpg" alt="Stars" style="width: 300px">
+    <h3 style="margin-top: 1cm;"><b>Stars</b></h3>
+    <p>Stars are the beating hearts of galaxies — <br> forging elements, sparking stories</p>
+  </div>
+  
+
+
+</div>
+</section>
+
+<section style="background-color: white; height: 18cm;">
+
+  <div class="container">
+  <h6 style="font-size: 400%; font-weight: bolder; padding-top: 2.5cm;" >First Mars Crew Completes Year -<br> Long Simulated <br> Red Planet Mission   <img src="../Img/story.webp" style="float: right; height: 400px; width: auto; padding-left: 0.7cm;">
+</h6>
+  <p style="margin-top: 3cm; text-align: justify;">The inaugural CHAPEA (Crew Health and Performance Exploration Analog)
+     crew—Kelly Haston
+     (commander), Ross Brockwell, Nathan Jones, and Anca Selariu—completed 
+    a 378 - day simulated Mars mission, exiting the Mars Dune Alpha habitat on July 6, 2024.
+    <br>
+    The CHAPEA mission forms a vital bridge in NASA's Moon-to-Mars strategy, 
+    complementing Artemis lunar missions.
+     Together, these analogs and real missions will provide the layered
+      experience needed for sustainable and safe Mars exploration.
+   </p>  
+   <a href="#" style="text-decoration: underline coral; font-size: large; font-weight: bold ;">Learn More </a>
+    </div>
+</section>
+
+
+
+<section style="background-color: black; color: white;" id="yt">
+  <div class="container" style="height: 15cm; display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 2.5cm 2rem;">
+    
+    <!-- Text Content -->
+    <div style="flex: 1;">
+      <h1 style="font-size: 400%; font-weight: bold;  font-family: Chonburi; ">Big Bang Theory -</h1>
+
+      <h4 style="font-style: italic; font-size: medium; font-weight: 200; margin-bottom: 1.5cm;">Explained</h4>
+
+      <h6>
+        How old is the universe, and how did it begin? <br> 
+        Throughout history countless myths and scientific theories have tried to explain the universe's origins. <br> 
+        The most widely accepted explanation is the big bang theory. <br><br>
+        Learn about the explosion that started it all and how the universe grew <br>
+        from the size of an atom to encompass everything in existence today.
+      </h6>
+
+      <a href="https://www.youtube.com/results?search_query=Big+Bang+Theory+Explained" 
+         style="text-decoration: underline orange; text-decoration-style: solid; font-weight: bold;">
+        View More
+      </a>
+    </div>
+
+    <!-- Video Content -->
+    <div style="flex-shrink: 0;">
+      <iframe id="vid" 
+              src="https://www.youtube.com/embed/HdPzOWlLrbE?si=22zOEKg83Lx83-tS" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen 
+              style="height: 350px; width: 550px;">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+
+<section style=" background-color: rgba(8, 8, 35, 0.722); padding-bottom: 2.5cm;">
+   <H1 style="font-size: 400%; font-weight: bolder; padding-top: 1cm; color: aliceblue; padding-bottom: 1.5cm; margin-left: 3cm;  font-family: Arvo;"> Andromeda Galaxy</H1>
+  <div class="container" id="galax">
+   
+    <img src="../Img/M31-Andromede-16-09-2023-Hamois.jpg" style="height: 300px; width: 500px; border-radius: 5%;">
+    <p style="  color: antiquewhite; float: right; text-align: justify;   font-weight: 300;">
+       The Andromeda Galaxy, also known as M31, is the closest spiral galaxy
+       to our own Milky Way and sits approximately 2.5 million light-years   
+       from Earth. It's one of the few galaxies visible to the naked eye and 
+       appears as a faint, elongated blur in the night sky under dark conditions.
+       Despite its distance, it's incredibly massive — containing around one trillion 
+       stars, more than double the estimated number in the Milky Way. Andromeda is
+       moving toward us at an astonishing speed of 110 kilometers per second, and in
+       about 4 billion years, it will collide with the Milky Way in a dramatic cosmic event.
+        This future merger will not result in a catastrophic explosion but rather a graceful 
+        blending of both galaxies, likely forming a large elliptical galaxy often nicknamed 
+        “Milkomeda.” Interestingly, the galaxy gets its name from the Greek mythological princess
+         Andromeda and lies within the constellation that also bears her name. With its majestic
+          spiral arms and fascinating destiny, Andromeda offers a glimpse not
+         just into the universe's structure but also into our galaxy's future. <br>
+         <a href="https://en.wikipedia.org/wiki/Andromeda_Galaxy" style="font-weight: bold;"> Learn More on - Wiki</a>
+           </p>
+  </div>
+</section>
+
+
+<section id="galaa" style="height: 18cm;">
+
+     <div class="overlay" id="over">
+
+  <div class="container" id="star"  >
+ 
+    <h1 style="color: aliceblue; font-family: Yeseva One; font-weight: 400; font-style: normal;"> Birth of a Star</h1>
+    <p style=" font-family: Josefin Sans;  font-weight: 400; font-style: normal; font-size: large;">
+      Stars are born deep within vast, cold clouds of gas and dust in space, known as nebulae.
+       These clouds, made primarily of hydrogen and helium, are scattered throughout galaxies
+        and often appear as dark, quiet regions in the night sky. The process of star formation
+         begins when a disturbance—such as the shockwave from a nearby supernova explosion or the 
+         collision of galaxies—causes a portion of the nebula to become gravitationally unstable. 
+         This region starts to collapse inward under its own gravity, and as it contracts, the mate
+         rial within it clumps together and heats up, forming a dense, hot core called a protostar.
+          At this stage, the protostar is not yet a full-fledged star; it glows faintly due to the
+           heat from gravitational compression, not from nuclear fusion. Over time, the protostar
+            continues to gather mass from its surroundings, and the temperature and pressure in i
+            ts core steadily rise. When the core temperature reaches about 10 million degrees Cel
+            sius, hydrogen atoms begin to fuse into helium in a process called nuclear fusion. Th
+            is marks the true birth of a star. The energy released by fusion creates an outward p
+            ressure that balances the inward pull of gravity, allowing the star to reach a stable
+             state. This balance is called hydrostatic equilibrium, and the star enters what’s known
+              as the main sequence phase of its life. In this phase, the star shines steadily 
+      for millions to billions of years, depending on its mass, fueled by the continuous fusion o
+      f hydrogen into helium at its core.</p>
+    
+  </div>
+  </div>
+</section>
+
+
+    </main>
+    
+<footer>
+     <div class="container-fluid pb-0 mb-0 justify-content-center text-light " id="cont">
+        <footer>
+
+            <div class="row my-5 justify-content-center py-5">
+                <div class="col-11">
+                    <div class="row ">
+                        <div class="col-xl-8 col-md-4 col-sm-4 col-12   my-auto mx-auto a"><h3 class="text-muted mb-md-0 mb-5 bold-text">Orbit Odyssey</h3></div>
+                                  <img src="../Img/planets.svg" alt="" style="position: absolute; height: 300px; padding-right: 8cm;" >
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-12"><h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                        <ul class="list-unstyled"><li> <a href="../HTML/main.html">Home</a> </li><li>Multimedia</li><li> <a href="../HTML/solar.html"> Solar System</a> </li><li>Space Center</li> <li></ul></div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-12"><h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>About</b></h6><p class="mb-1"> Vast, silent, and full of mysteries—the universe stretches far beyond our sight. This website is your telescope into the stars,
+                    galaxies, and swirling black holes. Travel through constellations and planets,
+                   and witness how ISRO and NASA unravel the secrets of space. Let your curiosity float among the stars.</p> </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-xl-8 col-md-4 col-sm-4 col-auto  my-md-0 mt-5 order-sm-1 order-3 align-self-end"><p class="social text-muted mb-0 pb-0 bold-text"> <span  class="mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="fa fa-instagram" aria-hidden="true"></i></span> </p><small class="rights"><span>&#174;</span> All Rights Reserved.</small></div>
+                        <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end "><h6 class="mt-55 mt-2 text-muted bold-text"><b> LIZA KUMARI</b></h6><small> <span ><i class="fa fa-envelope" aria-hidden="true" ></i></span> <a href="mailto:liza2602007@gmail.com "></a> liza2602007@gmail.com </small></div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

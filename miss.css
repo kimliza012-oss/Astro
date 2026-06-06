@@ -1,0 +1,184 @@
+body{
+  overflow-x: hidden;
+
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: 150%;
+  z-index: -1;
+}
+
+
+
+
+
+.content {
+  margin-top: 200px;
+  
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content h1{
+  font-weight: 650;
+  font-size: 850%;
+}
+
+#nav{
+  overlay: 5;
+}
+
+#ro {
+  display: flex;
+  margin-top: 0.5cm;
+}
+
+#col {
+  flex: 1.5 31px;
+  padding-left: 1cm;
+  height: 11cm;
+  color: aliceblue;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 1cm;
+ 
+}
+#col img{
+  border-radius: 20%;
+  height: max-content;
+}
+
+#col p{
+  font-size: medium;
+  font-style: italic;
+
+}
+#col h3 p {
+    margin-bottom: 2cm;
+}
+
+
+#vid{
+  float: right;
+  align-self: center;
+ 
+}
+
+#yt h6{
+  font-weight: 300;
+}
+
+
+
+#galax{
+   display: flex;
+      align-items: center; /* Vertically center the content */
+      gap: 20px; /* Space between image and text */
+      padding: 20px;
+}
+
+#galax a{
+  color: chocolate;
+  text-decoration: dotted;
+  text-decoration-color: darkorange;
+}
+#galax img{
+  transition: 0.2s ease-in-out;
+}
+#galax img:hover {
+  transform: scale(1.1);
+
+}
+
+#galaa{
+  background: url(../Img/galaxy-wallpaper-warm-colors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#star p{
+  color: whitesmoke;
+  font-size: medium;
+  text-align:justify;
+  justify-content: left;
+justify-items: left;
+padding-right: 7cm;
+padding-top: 2cm;
+
+}
+
+#star h1{
+  font-size: 550%;
+  padding-top: 2cm;
+}
+
+#over {
+      position: static;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
+      pointer-events: none;
+}
+
+
+
+#warn{
+    background-color: #29274c;
+    height: 2cm;
+  }
+
+.dropdown-menu :hover{
+  background-color: #9a5870;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+#cont{
+    overflow:hidden; 
+    margin-top: 250px ;
+    background:linear-gradient(to right,#5E3041ff, #A7A4BEff);
+    color: #17191b  !important;
+    margin-bottom: 0 ;
+    padding-bottom:0  ;
+}
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color: #fdfdfd !important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
+}

@@ -1,0 +1,142 @@
+
+
+
+#nav1{
+  overlay: 5;
+width: 40.6cm;
+
+}
+
+
+/* Custom Cursor */
+body {
+  background-image: url("../Img/spacex-Ptd-iTdrCJM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  
+  
+}
+
+#head h1 {
+  padding-top: 11cm;
+font-size: 600%;
+font-family: 'Libre Baskerville'; 
+color: #ffffff;
+text-shadow: 9px 2px 6px rgb(0, 0, 0);
+ font-weight: bold;
+}
+
+#head {
+  background-color: #00000058;
+  height: 16.9cm;
+  
+}
+
+#bl {
+  background-color: rgba(169, 169, 169, 0.205);
+  color: white;
+  margin-top: 3cm;
+  height: 10cm;
+}
+
+#bl  ul{
+  padding-top: 1cm;
+}
+#bk ul{
+  padding-top: 1cm;
+}
+#bp ul{
+  padding-top: 1cm;
+}
+
+#sp {
+  padding-left: 2cm;
+}
+
+#bk {
+    background-color: rgba(33, 57, 105, 0.732);
+  color: white;
+  margin-top: 3cm;
+  height: 15cm;
+}
+
+#bp {
+    background-color: rgba(7, 27, 74, 0.516);
+  color: white;
+  margin-top: 3cm;
+  height: 16cm;
+}
+
+
+
+
+
+#warn{
+    background-color: #29274c;
+    height: 2cm;
+  }
+
+.dropdown-menu :hover{
+  background-color: #9a5870;
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
+
+.container {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+
+#contain{
+    overflow:hidden; 
+    margin-top: 250px ;
+    background:linear-gradient(to right,#5E3041ff, #A7A4BEff);
+    color: #17191b  !important;
+    margin-bottom: 0 ;
+    padding-bottom:0  ;
+}
+
+small{
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+.bold-text{
+    color: #fdfdfd !important;
+}
+
+
+.mt-55{
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
+
+h3{
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+ 
+.social{
+    font-size: 21px !important; 
+}
+
+.rights{
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important; 
+}
+
